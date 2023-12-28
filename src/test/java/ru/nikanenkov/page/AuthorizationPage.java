@@ -1,10 +1,8 @@
-package ru.netology.page;
+package ru.nikanenkov.page;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import ru.netology.data.DataHelper;
-
-import java.time.Duration;
+import ru.nikanenkov.data.DataHelper;
 
 import static com.codeborne.selenide.Selenide.$x;
 

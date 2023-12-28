@@ -1,15 +1,14 @@
-package ru.netology.test;
+package ru.nikanenkov.test;
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
-import ru.netology.data.DataHelper;
-import ru.netology.page.AuthorizationPage;
-import ru.netology.page.SearchEmployeePage;
+import ru.nikanenkov.data.DataHelper;
+import ru.nikanenkov.page.AuthorizationPage;
+import ru.nikanenkov.page.SearchEmployeePage;
 
 import static com.codeborne.selenide.Selenide.*;
-import static ru.netology.data.DataHelper.*;
+import static ru.nikanenkov.data.DataHelper.*;
 
 
 public class SearchEmployeeTest {
